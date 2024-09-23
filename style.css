@@ -1,0 +1,130 @@
+* {
+    margin: 0; /* altera a margem da pagina*/
+    padding: 0; /* altera o espaçamento*/
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /*fonte da letra*/
+    line-height: 1.6; /*Altura da linha*/
+    background-color: #f9f9f9;/*cor de fundo*/
+}
+
+nav {
+    position: fixed; /* posição do cabeçalho*/
+    top: 0; /* topo da pagina*/
+    width: 100%; /*tamanho do cabeçalho*/
+    background-color: #867d788c; /* cor de fundo*/
+    padding: 20px 0; /* altera o espaçamento*/
+}
+
+nav ul {
+    list-style-type: none; /* estilo da lista*/
+    display: flex; /* como os elementos vão ser exibidos*/
+    justify-content: center; /* colocar os elementos no centro*/
+
+}
+
+nav ul li {
+    margin: 0 20px; /* margem entre as palavras do cabeçalho*/
+}
+
+nav ul li a {
+    
+    color: white;/*cor das letras*/
+    text-decoration: none; /* decoração do texto*/
+    font-size: 18px; /* tamanho da fonte*/
+    padding: 10px; /* espaço entre as palavras do cabeçalho*/
+    transition: color 0.3s; /*as coresdaspalavras do cabeçalho são alterados por 0.3s*/
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
+
+section:not(#home) {
+    padding: 100px 20px; /*espaçamento entre os textos*/
+    text-align: center;/* alinhamento do texto*/
+    display: flex;/* disposição dos elemenntos*/
+    justify-content: center;/* posicionar os elementos no centro*/
+    align-items: center;/*alinha os elementos*/
+    height: 100vh;/*tamanho do espaçamento*/
+    
+}
+
+#home {
+    /*background-color: #4A90E2;*/
+    background-image: url(imagens/agencia-marke_auqqlp.webp); /*imagem de fundo acima dos textos*/
+    background-size: cover; /*tamanho da imagem no fundo*/
+    background-repeat: no-repeat;/* sem repetir a imagem*/
+    color: rgb(187, 142, 112);/* altera a cor que esta sobrepondo a imagem*/
+    height: 100vh; /*tamanho da imagem no fundo*/
+    text-align: center;/*Alinhamento do texto*/
+    display: flex;/*disposição flexivel dos elementos*/
+    flex-direction: column; /*a disposição flexivel foi alterada para ser agrupada em coluna*/
+    justify-content: center;/* Conteudo alinhado no centro*/
+    align-items: center;/*tudo alinhado no centro*/
+    font-size: 1.5em;/*tamanho da fonte*/
+}
+
+.content {
+    display: flex;/*disposição flexivel dos elementos*/
+    flex-direction: row;/*a disposição flexivel foi alterada para ser agrupada em linha*/
+    align-items: center;/*tudo alinhado no centro*/
+    justify-content: center;/* Conteudo alinhado no centro*/
+}
+
+.content img {
+    width: 400px;/*Largura da imagem*/
+    height: 300px; /*Altura da imagem*/
+    object-fit: cover; /*Aumenta ozoom da imagem*/
+    margin-right: 20px; /*Margem a direita da pagina*/
+    border-radius: 8px; /*Arredonda as bordas das imagens*/
+}
+
+.content .text {
+    max-width: 600px; /*Tamanho maximo do texto*/
+    text-align: left; /*texto alinhado a esquerda*/
+}
+
+.content .text h2 {
+    font-size: 2em; /*tamanho da fonte do texto*/
+    margin-bottom: 20px;/*Altera a margem do botão*/
+    color: #333; /*Altera a cor*/
+}
+
+.content .text p {
+    font-size: 1.1em; /*tamanho da fonte do texto*/
+    color: #555; /*Altera a cor*/
+}
+
+#services {
+    background-color: #ffffff; /*Cor do fundo da parte de serviço*/
+}
+
+#about {
+    background-color: #eaeaea; /*Cor do fundo da parte Sobre nós*/
+}
+
+#contact {
+    background-color: #ffffff; /*Cor do fundo da parte de contato*/
+}
+
+.cta-button {
+    margin-top: 30px; /*Margem no topo do botão*/
+    background-color: #94999b; /*Cor de fundo do botão*/
+    color: hsl(0, 0, 0); /*cor da letra*/
+    padding: 15px 30px; /* espaçamento*/
+    font-size: 18px; /*tamanho da fonte*/
+    border: none; /* sem borda */
+    border-radius: 15px; /*borda do botão arredondada*/
+    cursor: pointer; /*Não percebi alteração*/
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /*estilo das sombras*/
+    transition: background-color 1s ease, transform 1s ease; /*? mas aparenta fazer a cor do botão piscar com a cor dp back*/
+    
+}
+
+
+.cta-button:hover{
+    background-color: #bba868; 
+}
