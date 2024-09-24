@@ -7,7 +7,7 @@
 body {
     font-family: Arial, sans-serif; /*fonte da letra*/
     line-height: 1.6; /*Altura da linha*/
-    background-color: #f9f9f9;/*cor de fundo*/
+    background-color: #f3f2f2;/*cor de fundo*/
 }
 
 nav {
@@ -31,7 +31,7 @@ nav ul li {
 
 nav ul li a {
     
-    color: white;/*cor das letras*/
+    color: rgb(255, 255, 255);/*cor das letras*/
     text-decoration: none; /* decoração do texto*/
     font-size: 18px; /* tamanho da fonte*/
     padding: 10px; /* espaço entre as palavras do cabeçalho*/
@@ -54,7 +54,7 @@ section:not(#home) {
 
 #home {
     /*background-color: #4A90E2;*/
-    background-image: url(imagens/agencia-marke_auqqlp.webp); /*imagem de fundo acima dos textos*/
+    background-image: url(imagens/agencia-marke_auqqlp.png); /*imagem de fundo acima dos textos*/
     background-size: cover; /*tamanho da imagem no fundo*/
     background-repeat: no-repeat;/* sem repetir a imagem*/
     color: rgb(187, 142, 112);/* altera a cor que esta sobrepondo a imagem*/
@@ -99,15 +99,15 @@ section:not(#home) {
 }
 
 #services {
-    background-color: #ffffff; /*Cor do fundo da parte de serviço*/
+    background-color: #cfc9b2; /*Cor do fundo da parte de serviço*/
 }
 
 #about {
-    background-color: #eaeaea; /*Cor do fundo da parte Sobre nós*/
+    background-color: #d4d6ae; /*Cor do fundo da parte Sobre nós*/
 }
 
 #contact {
-    background-color: #ffffff; /*Cor do fundo da parte de contato*/
+    background-color: #cfc9b2; /*Cor do fundo da parte de contato*/
 }
 
 .cta-button {
